@@ -46,5 +46,28 @@ This step reveals if the system is working as expected or not.
 5. Improves quality of the product: Functional testing ensures the security and safety of the product and improves the quality of the product.
 
 
+**** TYPES OF FUNCTIONAL TESTING ****
+
+* UNIT TESTING
+* INTEGRATION TESTING 
+* SMOKE TESTING 
+* USER ACCEPTANCE TESTING 
+* INTERFACE TESTING
+* SYSTEM TESTING
+* REGRESSION TESTING 
+* SAINTY TESTING
+* WHITE BOX TESTING
+* BLACK BOX TESTINGT
+* DATABASE TESTING 
+* ADHOC TESTING 
+* RECOVERY TESTING 
+* STATIC TESTING
+* GREY BOX TESTING
+* COMPONENET TESTING 
+
+These are all the types covered in functional testing .
+
+NOTE : Types will be covered by basic knowledge and theory , process and operations will not be covered in discripitive .  
+
 
 
