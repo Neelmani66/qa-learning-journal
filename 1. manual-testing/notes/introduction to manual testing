@@ -1,1 +1,50 @@
+# INTRODUCTION TO MANUAL TESTING #
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Manual testing is a technique to test the software that is carried out using the functions and features of an application. 
+In manual software testing, a tester tests the software by following predefined test cases. 
+In this testing, testers make test cases for the codes, test the software, and give the final report about that software. 
+Manual testing is time-consuming because it is done by humans, and there is a chance of human errors.
 
+Every new application must be manually tested before its testing can be automated. 
+Manual Testing requires more effort than automation testing but is necessary to check automation feasibility.
+There is no requirement for knowledge of any testing tool in manual testing.
+
+# TYPES OF MANUAL TESTING #
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+There are different methods to implement manual testing, but it is broadly classified into three types of manual testing:
+
+1. WHITE BOX TESTING
+2. BLACK BOX TESTING
+3. GREY BOX TESTING
+
+# STEPS OF MANUAL TESTING #
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Manual testing can be done in 6 steps :
+
+Step 1. Requirement Analysis: Study the software project documentation, guides, and Application Under Test (AUT). Analyze the requirements from SRS.
+Step 2. Test Plan Creation: Create a test plan covering all the requirements.
+Step 3. Test Case Creation: Design the test cases that cover all the requirements described in the documentation.
+Step 4. Test Case Execution: Review and baseline the test cases with the team lead and client. Execute the test cases on the application under test.
+Step 5. Defect Logging: Detect the bugs, log and report them to the developers.
+Step 6. Defect Fix and Re-verification: When bugs are fixed, again execute the failing test cases to verify they pass.
+
+# NOW LETS TALK ABOUT ADVANTAGES AND DISADVANTEGES OF MANUAL TESTING #
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADVANTAGES ::
+1. Fast and accurate visual feedback: It detects almost every bug in the software application and is used to test the dynamically changing GUI designs like layout, text, etc.
+2. Less expensive: It is less expensive as it does not require any high-level skill or a specific type of tool.
+3. No coding is required: No programming knowledge is required while using the black box testing method. It is easy to learn for the new testers.
+4. Efficient for unplanned changes: Manual testing is suitable in case of unplanned changes to the application, as it can be adopted easily.
+
+DISADVANTAGES ::
+1. Less reliable: Manual testing is less reliable as it does not provide testing on all aspects of testing.
+2. Can not be reused: There is a need to develop separate test cases for each new software.
+3. Large human resources required: Manual testing requires numerous human resources, and there are some tasks that can’t be performed manually.
+4. Needs experience: The tester needs to know the application well. They develop test cases based on their experience, there is no proof that all the functions are covered or not.
+5. Time-consuming: If the project is large, then the testing process is time-consuming.
+
+IN NEXT FILE WE WILL TALK ABOUT TYPES OF MANUAL TESTING IN DETAIL
+
+TILL THAT 
+TAKE CARE ;)
