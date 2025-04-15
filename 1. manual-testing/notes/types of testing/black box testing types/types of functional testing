@@ -1,1 +1,77 @@
+# NOW LETS TALK ABOUT TYPES OF FUNCTIONAL TESTING #
+..........................................................................................................................................
 
+-- UNIT TESTING
+Unit testing is the process of testing the smallest parts of your code, like it is a method in which we verify the code’s correctness by running one by one. 
+It’s a key part of software development that improves code quality by testing each unit in isolation.
+
+You write unit tests for these code units and run them automatically every time you make changes. 
+If a test fails, it helps you quickly find and fix the issue. Unit testing promotes modular code, ensures better test coverage, and saves time by allowing developers to focus more on coding than manual testing.
+
+ADVANTAGES OF UNIT TESTING ::
+
+1. EARLY DETECTION OF ISSUES
+2. IMPROVED CODE QUALITY 
+3. INCREASED CONFIDENCE 
+4. FASTER DEVELOPMENT 
+5. BETTER DOCUMENTATION
+6. REDUCED TIME AND COST
+
+DISADVANTAGES OF UNIT TESTING ::
+
+1. TIME AND EFFORT
+2. DEPENDENCE ON DEVELOPERS (THEIR KNOWDELGE AND SKILLS)
+3. DIFFICULTY IN TESTING COMPLEX UNITS
+4. DIFFICULTY IN TESTING INTERACTIONS / USER INTERFACES
+5. MAINTENANCE OVERHEAD
+..........................................................................................................................................
+
+-- INTEGRATION TESTING 
+Integration testing is a software testing technique that focuses on verifying the interactions and data exchange between different components or modules of a software application.
+The goal of integration testing is to identify any problems or bugs that arise when different components are combined and interact with each other. 
+Integration testing is typically performed after unit testing and before system testing. 
+It helps to identify and resolve integration issues early in the development cycle, reducing the risk of more severe and costly problems later on.
+
+............................................................................................................................................
+
+-- SMOKE TESTING 
+Smoke Testing is a software testing method that determines whether the employed build is stable or not.
+It acts as a confirmation of whether the quality assurance team can proceed with further testing. 
+Smoke tests are a minimum set of tests run on each build. 
+Smoke testing is a process where the software build is deployed to a quality assurance environment and verified to ensure the application’s stability. 
+Smoke Testing is also known as Confidence Testing or Build Verification Testing. 
+
+In other words, we verify whether the important features are working and there are no showstoppers in the build that are under testing.
+It is a mini and quick regression test of major functionality.
+Smoke testing shows that the product is ready for testing.
+This helps in determining if the build is flawed to make any further testing a waste of time and resources.
+
+ADVANTAGES OF SMOKE TESTING ::
+
+1. EASY TO PERFORM
+2. HELPS IDENTEFYING DEFECTS IN EARLY STAGES
+3. IMPROVES QUALITY OF SYSTEM
+4. REDUCES RISK OF FAILURE
+5. MAKES PROGESS EASY TO ACESS
+6. SAVES TEST EFFORT AND TIME 
+7. HELPS TO DETECT CRITIAL ERROR
+8. RUNS QUICKLY 
+9. MINIMIZES INTEGRATION RISKS
+
+DISADVANTAGES OF SMOKE TESTING ::
+
+1. DOES NOT COVER ALL FUNCTION OF SOFTWARE
+2. ERRORS MAY OCCUR EVEN AFTER TESTING
+3. IN CASE OF MANUAL SMOKE TESTING IT TAKES ALOT OF TIME
+4. WILL NOT IMPLEMENT AGAINT NEGATIVE RESULT OR INAVLID OUTPUT
+5. CONSIST MIN NUMBER OF TEST CASES CHANCES OF SKIPPING SOME 
+
+...........................................................................................................................................
+
+-- ACCEPTANCE TESTING 
+It is formal testing according to user needs, requirements, and business processes conducted to determine whether a system satisfies the acceptance criteria or not and to enable the users, customers, or other authorized entities to determine whether to accept the system or not.
+Acceptance Testing is the last phase of software testing performed after System Testing and before making the system available for actual use. 
+
+UNIT TESTING ----> INTEGRATION TESTING ----> SYSTEM TESTING ----> ACCEPTANCE TESTING
+
+ADVANTAGES OF ACCEPTANCE TESTING ::
