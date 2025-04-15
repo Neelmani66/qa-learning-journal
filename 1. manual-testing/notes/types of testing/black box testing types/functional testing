@@ -1,1 +1,50 @@
+TYPES OF BLACK BOX TESTING ::
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1. FUNCTIONAL TESTING :
+
+WHAT IS FUNCTIONAL TESTING?
+Functional testing is defined as a type of testing that verifies that each function of the software application works in conformance with the requirement and specification. 
+This testing is not concerned with the source code of the application. 
+Each functionality of the software application is tested by providing appropriate test input, expecting the output, and comparing the actual output with the expected output. 
+This testing focuses on checking the user interface, APIs, database, security, client or server application, and functionality of the Application Under Test.
+Functional testing can be manual or automated.
+
+
+//// PURPOSE OF FUNCTIONAL TESTING ////
+
+1. Test each function of the application: Functional testing tests each function of the application by providing the appropriate input and verifying the output against the functional requirements of the application.
+2. Test primary entry function: In functional testing, the tester tests each entry function of the application to check all the entry and exit points.
+3. Test flow of the GUI screen: In functional testing, the flow of the GUI screen is checked so that the user can navigate throughout the application.
+
+//// WHAT TO TEST ////
+
+1. Basic Usability: This checks if users can easily navigate the app without any trouble. It’s all about making sure the experience is smooth.
+2. Main Functions: Functional testing also looks at the app is a core features to verify they are working correctly, just as they’re meant to.
+3. Accessibility: This ensures the app is accessible to everyone, including users with disabilities. It checks whether accessibility features are in place and functioning properly.
+4. Error Handling: Lastly, it tests how the app handles errors. Are the right error messages shown when something goes wrong? This part verify users are informed when an issue arises.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+NOW LETS TALK ABOUT THE PROCESS ::
+
+Step 1. Identify test input: This step involves identifying the functionality that needs to be tested. This can vary from testing the usability functions, and main functions to error conditions.
+
+Step 2. Compute expected outcomes: Create input data based on the specifications of the function and determine the output based on these specifications.
+
+Step 3. Execute test cases: This step involves executing the designed test cases and recording the output.
+
+Step 4. Compare the actual and expected output: In this step, the actual output obtained after executing the test cases is compared with the expected output to determine the amount of deviation in the results.
+This step reveals if the system is working as expected or not.
+
+//// BENEFITS OF FUNCTIONAL TESTING ////
+
+1. Bug-free product: Functional testing ensures the delivery of a bug-free and high-quality product.
+2. Customer satisfaction: It ensures that all requirements are met and ensures that the customer is satisfied.
+3. Testing focused on specifications: Functional testing is focused on specifications as per customer usage.
+4. Proper working of application: This ensures that the application works as expected and ensures proper working of all the functionality of the application.
+5. Improves quality of the product: Functional testing ensures the security and safety of the product and improves the quality of the product.
+
+
+
 
