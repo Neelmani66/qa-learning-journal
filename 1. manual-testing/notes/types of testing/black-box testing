@@ -1,1 +1,7 @@
+# BLACK BOX TESTING #
+
+Black-box testing is a Type of Software Testing in which the tester is not concerned with the software’s internal knowledge or implementation details .
+But rather focuses on validating the functionality based on the provided specifications or requirements.
+
+INPUT ----> BLACK BOX ----> OUTPUT
 
