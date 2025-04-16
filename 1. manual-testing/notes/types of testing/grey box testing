@@ -1,1 +1,171 @@
+## THIS IS A NEW TOPIC START ABOUT GREY BOX TESTING ##
+
+What is Gray Box Testing?
+Gray Box Testing is a software testing technique that is a combination of the Black Box Testing technique and the White Box Testing technique.
+
+In the Black Box Testing technique, the tester is unaware of the internal structure of the item being tested and in White Box Testing the internal structure is known to the tester.
+The internal structure is partially known in Gray Box Testing.
+This includes access to internal data structures and algorithms to design the test cases.
+Gray Box Testing is named so because the software program is like a semitransparent or gray box inside which the tester can partially see.
+It commonly focuses on context-specific errors related to web systems.
+It is based on requirement test case generation because it has all the conditions presented before the program is tested.
+
+
+Objectives of Gray Box Testing ::
+
+1. To provide combined advantages of both black box testing and white box testing.
+2. To combine the input of developers as well as testers.
+3. To improve overall product quality.
+4. To reduce the overhead of long process of functional and non-functional testing.
+5. To provide enough free time to developers to fix defects.
+6. To test from the user point of view rather than a designer point of view.
+
+Gray Box Testing Techniques ::
+
+NOTE : pre-covered topics are not covered in detailed please review files related to black box/white box for those topics .
+....................................................................................................................................................................
+1. MATRIX TESTING
+....................................................................................................................................................................
+Software testing metrics are quantifiable indicators of the software testing process progress, quality, productivity, and overall health.
+The purpose of software testing metrics is to increase the efficiency and effectiveness of the software testing process while also assisting in making better decisions for future testing by providing accurate data about the testing process.
+A metric expresses the degree to which a system, system component, or process possesses a certain attribute in numerical terms. 
+A weekly mileage of an automobile compared to its ideal mileage specified by the manufacturer is an excellent illustration of metrics. 
+
+Importance of Metrics in Software Testing ::
+
+Early Problem Identification: By measuring metrics such as defect density and defect arrival rate, testing teams can spot trends and patterns early in the development process.
+
+Allocation of Resources: Metrics identify regions where testing efforts are most needed, which helps with resource allocation optimization. By ensuring that testing resources are concentrated on important areas, this enhances the strategy for testing as a whole.
+
+Monitoring Progress: Metrics are useful instruments for monitoring the advancement of testing. They offer insight into the quantity of test cases that have been run, their completion rate, and if the testing effort is proceeding according to plan.
+
+Continuous Improvement: Metrics offer input on the testing procedure, which helps to foster a culture of continuous development.
+
+....................................................................................................................................................................
+2. PATTERN TESTING
+....................................................................................................................................................................
+To perform the pattern testing , previous defects are analyzed. It determines the cause of the failure by looking into the code.
+Analysis template includes reasons for the defect. 
+This helps test cases designed as they are proactive in finding other failures before hitting production.
+
+3. ORTHOGONAL ARRAY TESTING
+t is mainly a black box testing technique. In orthogonal array testing, test data have n numbers of permutations and combinations.
+Orthogonal array testing is preferred when maximum coverage is required when there are very few test cases and test data is large.
+This is very helpful in testing complex applications.
+
+....................................................................................................................................................................
+4. REGRESSION TESTING
+....................................................................................................................................................................
+
+....................................................................................................................................................................
+5. STATE TRANSITION TESTING
+....................................................................................................................................................................
+Is a type of software testing which is performed to check the change in the state of the application under varying input.
+The condition of input passed is changed and the change in state is observed.
+State Transition Testing is basically a black box testing technique that is carried out to observe the behavior of the system or application for different input conditions passed in a sequence. 
+In this type of testing, both positive and negative input values are provided and the behavior of the system is observed.
+State Transition Testing is basically used where different system transitions are needed to be tested.
+
+Advantages of State Transition Testing ::
+
+1. Clear Visualization: The different states and transitions in the system are clearly represented visually through the use of state transition diagrams. Better comprehension, communication and documentation of the system’s behavior are made possible by this visualization.
+2. Effective Test Design: Effective test case design is facilitated by the modelling of states and transitions. Based on the state transition diagram, testers can create test scenarios that encompass both legitimate and illegitimate state changes.
+3. Early Error Detection: Early fault discovery in relation to state transitions is aided by state transition testing. Testers can detect and fix problems early in the development life cycle by methodically testing various transitions.
+
+Disadvantages of State Transition Testing ::
+
+1. Having Trouble Identifying States: It might be difficult to recognize and characterize every state that a complicated system can have. Neglecting crucial testing situations could be the consequence of incomplete state identification.
+2. Failed to Evaluate Combinations: Individual state modifications and transitions are the main focus of state transition testing. It might not sufficiently cover testing of various state combinations, which is important for some systems.
+3. Risk of Omission: When creating and running test cases, there’s a chance that some situations or state transitions will be missed, which could result in insufficient test coverage.
+
+....................................................................................................................................................................
+6. DECISION TABLES TESTING
+....................................................................................................................................................................
+
+Decision tables are a useful tool for organizing and condensing complicated business rules and reasoning.
+Decision tables are used by testers with limited understanding to generate test cases covering multiple combinations of input conditions and expected results.
+
+....................................................................................................................................................................
+7. TESTING API'S
+....................................................................................................................................................................
+Even though the main code is not entirely known, gray box testing, also known as API (Application Programming Interface) testing , focuses on testing the system’s exposed interfaces.
+The main goal of testing is to make sure the API accepts various input formats and operates as intended.
+
+API testing, or application programming interface testing, is a type of software testing that focuses on the testing of individual API methods and the interactions between different APIs.
+This type of testing is typically performed at the integration level, after unit testing is completed, and before user interface testing begins.
+It is used to validate that the API behaves correctly and that it meets the requirements of the system.
+
+API testing can be performed manually or using automated testing tools. Some common tasks that are performed during API testing include:
+
+Testing the functionality of the API to ensure it behaves as expected
+Verifying that the API returns the correct response for different input values Checking for error handling and validation of input
+Testing for security vulnerabilities
+Checking for performance and scalability of the API
+API testing is important because it ensures that the different components of a system can communicate with each other correctly and that the system can handle a large volume of requests.
+
+API testing typically includes the following steps ::
+
+Reviewing the API documentation to understand the functionality and expected inputs and outputs
+Writing test cases that exercise the different functionality of the API
+Executing the test cases and comparing the expected results with the actual results
+Analysing the results and identifying any issues that need to be fixed
+
+There are several types of API testing, including ::
+
+Functional testing: Testing the functionality of the API to ensure it behaves as expected
+Security testing: Testing the security of the API to ensure it is protected against common vulnerabilities
+Performance testing: Testing the performance of the API to ensure it can handle the expected load
+Interoperability testing: Testing the compatibility of the API with other systems
+Usability testing: Testing the usability of the API for developers
+Tools such as Postman, SoapUI, and Runscope can be used to automate and simplify the process of API testing.
+
+....................................................................................................................................................................
+8. DATA FLOW TESTING
+....................................................................................................................................................................
+
+
+PROCESS OF GREY BOX TESTING ::
+
+1. Identify Inputs: Look at both black box and white box testing methods to decide what inputs are necessary for testing is suitable.
+2. Predict Outputs: Based on these inputs, make sure the system gives the expected outputs.
+3. Select Key Testing Paths: Identify the important areas or paths in the system to test, considering both its internal structure and its external behavior of the software.
+4. Spot Sub-Functions: check carefully into the system to find any smaller functions or features that need specific attention during testing.
+5. Identify Inputs for Sub-Functions: Find the exact inputs that apply to these sub-functions to ensure they are well tested.
+6. Predict Expected Outputs for Sub-Functions: Based on the sub-functions, predict what the outputs should be when the inputs are applied.
+7. Run the Sub-Function Test Cases: Execute tests on these sub-functions, checking real-world conditions and inputs.
+8. Verify the Results: Compare the actual results from the tests with the expected outputs to spot any issues.
+9. Repeat Steps 4-8: Revisit testing for different sub-functions and paths to ensure everything is fully tested.
+10. Refine and Repeat: Keep refining the test cases based on the results, re-checking outcomes, and making necessary adjustments.
+
+
+
+
+Advantages of Gray Box Testing ::
+
+1. Clarity of goals: Users and developers have clear goals while doing testing.
+2. Done from user perspective: Gray box testing is mostly done by the user perspective.
+3. High programming skills not required: Testers are not required to have high programming skills for this testing.
+4. Non-intrusive: Gray box testing is non-intrusive.
+5. Improved product quality: Overall quality of the product is improved.
+6. Defect fixing: In gray box testing, developers have more time for defect fixing.
+7. Benefits of black box and white box testing: By doing gray box testing, benefits of both black box and white box testing is obtained.
+8. Unbiased: Gray box testing is unbiased. It avoids conflicts between a tester and a developer.
+9. Effective testing: Gray box testing is much more effective in integration testing.
+
+Disadvantages of Gray Box Testing ::
+
+1. Difficulty in defect association: Defect association is difficult when gray testing is performed for distributed systems.
+2. Limited access to internal structure: Limited access to internal structure leads to limited access for code path traversal.
+3. Source code not accessible: Because source code cannot be accessed, doing complete white box testing is not possible.
+4. Not suitable for algorithm testing: Gray box testing is not suitable for algorithm testing.
+5. Test cases difficult to design: Most of the test cases are difficult to design.
+
+
+
+With this the grey box testing ends
+
+Thank you.
+Bye;)
+
+
 
