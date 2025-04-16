@@ -1,1 +1,49 @@
+Non-functional testing is a software testing technique that checks the non-functional attributes of the system.
+Non-functional testing is defined as a type of software testing to check non-functional aspects of a software application.
+It is designed to test the readiness of a system as per nonfunctional parameters which are never addressed by functional testing.
+Non-functional testing is as important as functional testing. 
 
+Objectives of Non-functional Testing
+
+1. Increased usability: To increase usability, efficiency, maintainability, and portability of the product.
+2. Reduction in production risk: To help in the reduction of production risk related to non-functional aspects of the product.
+3. Cost Reduction: To help in the reduction of costs related to non-functional aspects of the product.
+4. Optimize installation: To optimize the installation, execution, and monitoring way of the product.
+5. Collect metrics: To collect and produce measurements and metrics for internal research and development.
+6. Enhance knowledge of product: To improve and enhance knowledge of the product behavior and technologies in use.
+
+Non-functional Testing Parameters ::
+
+1. Security: This parameter is tested during Security testing. This parameter defines how the system is secure against sudden attacks from internal and external sources.
+2. Reliability: This parameter is tested during Reliability testing. This defines the extent to which the system performs its intended functions without failure.
+3. Survivability: This parameter is tested during Recovery testing. This parameter checks that the software system is able to recover itself in the case of failure and continuously performs the specified function without any failure.
+4. Availability: This is tested during Stability testing. Availability here means the availability percentage of the software system to the original service level agreement. It means the degree to which the user can rely on the software during its operation.
+5. Efficiency: This parameter means the extent to which the software system can handle the quantity and response time.
+6. Integrity: This parameter measures how high the source code quality is when it is passed on to the QA.
+7. Usability: This is tested in usability testing. This parameter means how easily usable the system is from the user’s perspective.
+8. Flexibility: This parameter means how well the system can respond to uncertainty in a way that allows it to function normally. 
+9. Scalability: This parameter is tested during scalability testing. This parameter measures the degree to which the application can scale up or scale out its processing capacity to meet an increase in demand.
+10. Reusability: This means how many existing assets can be reused in some form within the software product development process or in another application. 
+11. Interoperability: This parameter is tested during the Interoperability testing. This checks that the application interfaces properly with its components or other application or software. 
+12. Portability: This parameter checks the ease with which the software can be moved from one environment to another.
+
+Benefits of Non-functional Testing ::
+
+1. Improved performance: Non-functional testing checks the performance of the system and determines the performance bottlenecks that can affect the performance.
+2. Less time-consuming: Non-functional testing is overall less time-consuming than the other testing process.
+3. Improves user experience: Non-functional testing like Usability testing checks how easily usable and user-friendly the software is for the users. Thus, focus on improving the overall user experience for the application.
+4. More secure product: As non-functional testing specifically includes security testing that checks the security bottlenecks of the application and how secure is the application against attacks from internal and external sources.
+
+Limitations of Non-functional Testing ::
+
+1. Non-functional tests are performed repeatedly: Whenever there is a change in the application, non-functional testing is performed again. Thus, it is more resource intensive.
+2. Expensive in case of software update: In case of software update, non-functional testing is performed again thus incurring extra charges to re-examine the software, and thus software becomes expensive.
+
+We have covered about non-functional testing its parameters , benefits and limitations.
+Now we will discuss about types of testing donw under non-functional testing.
+
+NOTE - only types , basics knowldege and advantages/disadvantages will be covered .
+
+
+Thank you
+Bye ;)
