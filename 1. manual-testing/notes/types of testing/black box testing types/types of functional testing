@@ -75,3 +75,345 @@ Acceptance Testing is the last phase of software testing performed after System 
 UNIT TESTING ----> INTEGRATION TESTING ----> SYSTEM TESTING ----> ACCEPTANCE TESTING
 
 ADVANTAGES OF ACCEPTANCE TESTING ::
+
+1. TESTING HELPS PROJECT TEAM TO KNOW FURTHER REQUIREMENTS FROM THE USER DIRECTLY AS IT INVOLVES THE USERS FOR TESTING
+2. AUTOMATED TEST EXECUTION
+3. BRINGS CONFIDENCE AND SATISFACTION YTO CLIENTS AS THEY ARE DIRECTLY INVOLVED IN TESTING PROCESS
+4. EASIER FOR USER TO DESCRIBE REQUIREMENTS 
+5. COVERS ONLY BLACKBOX TESTING HENCE ENTIRE FUNCTIONALITY ARE CHECKED
+
+DISADVANTAGES OF ACCEPTANCE TESTING ::
+
+1. USER SHOULD HAVE BASIC KNOWLDEGE OF PRODUCT
+2. FEEDBACK FOR TESTING TAKES LONGER TIME
+3. DEVELOPMENT TEAM IS NOT PART OF THIS TESTING
+
+.............................................................................................................................................
+
+-- Interface Testing
+Interface Testing is a type of software testing type that checks the proper communication between two different software systems.
+Interface is the connection that integrates two components. 
+The interface could be anything like APIs, web services etc. 
+Testing of these connecting interfaces is defined as Interface Testing.
+An interface is actually a software that consists of sets of commands, messages and other attributes that enable communication between a device and a user.
+
+................................................................................................................................................
+
+-- System testing 
+System testing is a type of software testing that evaluates the overall functionality and performance of a complete and fully integrated software solution. 
+It tests if the system meets the specified requirements and if it is suitable for delivery to the end-users. 
+This type of testing is performed after the integration testing and before the acceptance testing.
+
+In system testing, integration testing passed components are taken as input.
+
+ADVANTAGES OF SYSTEM TESTING ::
+
+1. PROGRAMMER DO NOT REQUIRE MORE KNOWDELGE OF PROGRAMMING
+2. ENTIRE PRODUCT IS TESTED HENCE EASY TO FINDS MORE BUGS OR DEFECTS
+3. TESTING ENVIRONMENT IS SIMILAR TO REAL TIME PRODUCTION
+4. AFTER THIS TESTING PRODUCT WILL ENTIREY COVER ALL POSSIBLE BUGS
+5. HELPS TO VALIDATE THE REQUIREMENTS AND ENSURE THE SYSTEM MEETS THE USER NEEDS
+
+DISADVANTAGES OF SYSTEM TESTING ::
+
+1. TIME CONSUMING
+2. COST OF TESTING IS HIGH
+3. NEEDS GOOD TOOLS FOR DEBUGGING
+4. CAN BE COMPLEX AND CHALLENGING
+5. DEPENDS OF QUALITY OF REQUIREMENTS AND DESIGN DOCUMENTS
+6. REQUIRES PROPER PLANNING , COORDINATION AND EXECUTION
+7. REQUIRES SPECIAL SKILLS
+
+...................................................................................................................................................
+
+-- Regression testing
+Regression testing is like a software quality checkup after any changes are made. 
+It involves running tests to make sure that everything still works as it should, even after updates or tweaks to the code.
+This ensures that the software remains reliable and functions properly, maintaining its integrity throughout its development lifecycle.
+
+When to perform?
+1. When new functionality is added to the system and the code has been modified to absorb and integrate that functionality with the existing code.
+2. When some defect has been identified in the software and the code is debugged to fix it.
+3. When the code is modified to optimize its working.
+
+ADVANTAGES OF REGRESSION TESTING ::
+
+1. AUTOMATED UNIT TESTING
+2. COMPHRESSIVE TEST COVERAGE
+3. FASTER TEST EXECUTION
+4. IMPROVED DEVELOPER PRODUCTIVITY
+5. PARALLEL TESTING
+6. REDUCED COST 
+7. IMPROVES CODE QUALITY
+8. TIME EFFICIENT
+
+DISADVANTAGES OF REGRESSION TESTING ::
+
+1. CAN BE TIME AND RESOURCES COSUMING IF AUTOMATED TOOLS ARE NOT USED
+2. REQUIRED EVEN AFTER SMALL CHANGES IN CODE
+3. INCOMPLETE TEST COVERAGE
+4. TEST DATA MANAGEMENT CHALLENGES
+
+................................................................................................................................................
+
+- Sanity testing 
+It is a subset of regression testing.
+Sanity testing is performed to ensure that the code changes that are made are working properly.
+Sanity testing is a stoppage to check whether testing for the build can proceed or not.
+The focus of the team during the sanity testing process is to validate the functionality of the application and not detailed testing.
+Sanity testing is generally performed on a build where the production deployment is required immediately like a critical bug fix. 
+
+Functionality of Sanity Testing ::
+
+1. Verification of Integration: To make sure that recent adjustments or bug fixes haven’t negatively impacted the integration of various modules or components, sanity testing may involve an integration check.
+
+2. Verification of Fixed Bugs: Sanity testing follows bug fixes or modifications to make that associated features continue to function appropriately and that reported issues have been satisfactorily resolved.
+
+3. Efficiency of Time and Resources: Sanity testing saves time and aids in resource optimization by rapidly determining whether a build is stable enough for further testing.
+
+4. Check for Regression: Sanity testing may include a rudimentary check for regressions to make sure that current functionalities have not been adversely affected, even if it is not as thorough as regression testing.
+
+5. Repetitive Procedure: It can be carried often frequently to swiftly validate each incremental build, particularly in agile and continuous integration setups.
+
+ADVANTAGES OF SANITY TESTING ::
+
+1. HELPS QUICKLY IDENTIFY BUGS
+2. CAN BE CARRIED OUT IN LESSER TIME
+3. IF DEFECTS ARE FOUND PROJECT IS REJECTED SAVING TIME FOR REGRESSION TESTING
+4. HELPS IDENTIFYING MISSING OBJECTS
+5. USED TO VERIFY SMALL FUNCTIONALITIES OF PRODUCT
+6. COST EFFECTIVE 
+7. EARLY DECTECTION OF ISSUES
+
+DISADVANTAGES OF SANITY TESTING ::
+
+1. IT FOCUSES ONLY ON THE FUNCTIONS AND COMMANDS OF THE SYSTEM APPLICATION.
+2. IT IS NOT POSSIBLE TO COVER ALL THE TEST CASES IN TEST SCENARIOS.
+3. IT COVERS ONLY FEW FUNCTIONALITIES IN THE SYSTEM APPLICATION. ISSUES IN THE UNCHECKED FUNCTIONALITIES CAN’T BE RECOVERED.
+4. SANITY TESTING IS USUALLY UNSCRIPTED. HENCE, FUTURE REFERENCES ARE NOT AVAILABLE.
+5. IT DOESN’T COVER THE DESIGN STRUCTURE LEVEL AND HENCE IT WILL BE DIFFICULT FOR DEVELOPMENT TEAM TO IDENTIFY AND FIX THE ISSUES.
+6. LIMITED SCOPE: THE LIMITED SCOPE OF SANITY TESTING MEANS THAT IT MAY NOT UNCOVER ALL POTENTIAL ISSUES OR BUGS IN THE SOFTWARE. THIS MEANS THAT MORE COMPREHENSIVE TESTING WILL BE REQUIRED TO THOROUGHLY VALIDATE THE SOFTWARE’S FUNCTIONALITY.
+7. INCOMPLETE TESTING: SANITY TESTING IS ONLY A PRELIMINARY EVALUATION OF THE SOFTWARE, AND IT DOES NOT PROVIDE A COMPLETE PICTURE OF THE SOFTWARE’S PERFORMANCE OR QUALITY.
+8. POTENTIAL FOR FALSE POSITIVES: SANITY TESTING IS A QUICK PROCESS THAT MAY PRODUCE FALSE POSITIVES, INDICATING THAT A PARTICULAR FEATURE OR FUNCTION IS WORKING CORRECTLY WHEN IT IS ACTUALLY BROKEN.
+9. DEPENDENCE ON EXPERTISE: THE SUCCESS OF SANITY TESTING DEPENDS ON THE EXPERTISE AND KNOWLEDGE OF THE TESTER, WHO MUST HAVE A DEEP UNDERSTANDING OF THE SOFTWARE’S CRITICAL FUNCTIONS IN ORDER TO PERFORM THE TESTS EFFECTIVELY.
+10.TIME CONSTRAINTS: WHILE SANITY TESTING IS FASTER THAN OTHER FORMS OF TESTING, IT CAN STILL BE TIME-CONSUMING AND MAY REQUIRE A SIGNIFICANT AMOUNT OF TIME AND RESOURCES TO COMPLETE. THIS CAN BE A DISADVANTAGE WHEN TIME IS A CRITICAL FACTOR IN THE DEVELOPMENT PROCESS.
+
+...........................................................................................................................................
+
+-- White box testing 
+White box testing is a Software Testing Technique that involves testing the internal structure and workings of a Software Application. 
+The tester has access to the source code and uses this knowledge to design test cases that can verify the correctness of the software at the code level.
+
+White box testing is also known as Structural Testing or Code-based Testing, and it is used to test the software’s internal logic, flow, and structure. 
+The tester creates test cases to examine the code paths and logic flows to ensure they meet the specified requirements.
+
+UNIT TESTING ----> INTEGRATION TESTING ----> SYSTEM TESTING
+
+FOCUS ON?
+
+White box testing include testing a software application with an extend understanding of its internal code and structure. 
+This type of testing allows testers to create detailed test cases based on the application’s design and functionality.
+
+ADVANTAGES OF WHITE BOX TESTING ::
+
+1. THOROUGH TESTING: WHITE BOX TESTING IS THOROUGH AS THE ENTIRE CODE AND STRUCTURES ARE TESTED.
+2. CODE OPTIMIZATION: IT RESULTS IN THE OPTIMIZATION OF CODE REMOVING ERRORS AND HELPS IN REMOVING EXTRA LINES OF CODE.
+3. EARLY DETECTION OF DEFECTS: IT CAN START AT AN EARLIER STAGE AS IT DOESN’T REQUIRE ANY INTERFACE AS IN THE CASE OF BLACK BOX TESTING.
+4. INTEGRATION WITH SDLC: WHITE BOX TESTING CAN BE EASILY STARTED IN SOFTWARE DEVELOPMENT LIFE CYCLE.
+5. DETECTION OF COMPLEX DEFECTS: TESTERS CAN IDENTIFY DEFECTS THAT CANNOT BE DETECTED THROUGH OTHER TESTING TECHNIQUES.
+6. COMPREHENSIVE TEST CASES: TESTERS CAN CREATE MORE COMPREHENSIVE AND EFFECTIVE TEST CASES THAT COVER ALL CODE PATHS.
+
+DISADVANTAGES OF WHITE BOX TESTING ::
+
+1. PROGRAMMING KNOWLEDGE AND SOURCE CODE ACCESS: TESTERS NEED TO HAVE PROGRAMMING KNOWLEDGE AND ACCESS TO THE SOURCE CODE TO PERFORM TESTS.
+2. OVEREMPHASIS ON INTERNAL WORKINGS: TESTERS MAY FOCUS TOO MUCH ON THE INTERNAL WORKINGS OF THE SOFTWARE AND MAY MISS EXTERNAL ISSUES.
+3. BIAS IN TESTING: TESTERS MAY HAVE A BIASED VIEW OF THE SOFTWARE SINCE THEY ARE FAMILIAR WITH ITS INTERNAL WORKINGS.
+4. TEST CASE OVERHEAD: REDESIGNING CODE AND REWRITING CODE NEEDS TEST CASES TO BE WRITTEN AGAIN.
+5. DEPENDENCY ON TESTER EXPERTISE: TESTERS ARE REQUIRED TO HAVE IN-DEPTH KNOWLEDGE OF THE CODE AND PROGRAMMING LANGUAGE AS OPPOSED TO BLACK-BOX TESTING.
+6. INABILITY TO DETECT MISSING FUNCTIONALITIES: MISSING FUNCTIONALITIES CANNOT BE DETECTED AS THE CODE THAT EXISTS IS TESTED.
+7. INCREASED PRODUCTION ERRORS: HIGH CHANCES OF ERRORS IN PRODUCTION
+
+........................................................................................................................................
+
+-- Black box testing 
+Black-box testing is a Type of Software Testing in which the tester is not concerned with the software’s internal knowledge or implementation details .
+But rather focuses on validating the functionality based on the provided specifications or requirements.
+
+ADVANTAGES OF BLACK BOX TESTING ::
+
+1. THE TESTER DOES NOT NEED TO HAVE MORE FUNCTIONAL KNOWLEDGE OR PROGRAMMING SKILLS TO IMPLEMENT THE BLACK BOX TESTING.
+2. IT IS EFFICIENT FOR IMPLEMENTING THE TESTS IN THE LARGER SYSTEM.
+3. TESTS ARE EXECUTED FROM THE USER’S OR CLIENT’S POINT OF VIEW.
+4. TEST CASES ARE EASILY REPRODUCIBLE.
+5. IT IS USED TO FIND THE AMBIGUITY AND CONTRADICTIONS IN THE FUNCTIONAL SPECIFICATIONS.
+
+DISADVANTAGES OF BLACK BOX TESTING ::
+
+1. THERE IS A POSSIBILITY OF REPEATING THE SAME TESTS WHILE IMPLEMENTING THE TESTING PROCESS.
+2. WITHOUT CLEAR FUNCTIONAL SPECIFICATIONS, TEST CASES ARE DIFFICULT TO IMPLEMENT.
+3. IT IS DIFFICULT TO EXECUTE THE TEST CASES BECAUSE OF COMPLEX INPUTS AT DIFFERENT STAGES OF TESTING.
+4. SOMETIMES, THE REASON FOR THE TEST FAILURE CANNOT BE DETECTED.
+5. SOME PROGRAMS IN THE APPLICATION ARE NOT TESTED.
+6. IT DOES NOT REVEAL THE ERRORS IN THE CONTROL STRUCTURE.
+7. WORKING WITH A LARGE SAMPLE SPACE OF INPUTS CAN BE EXHAUSTIVE AND CONSUMES A LOT OF TIME.
+
+..............................................................................................................................................
+
+-- Database testing 
+Database testing is a type of software testing that checks the data integrity, consistency schema, tables, triggers, etc. 
+It involves creating difficult queries to load and stress testing the database and reviewing its responsiveness.
+
+Database testing is also known as data testing or back-end testing.
+Database tester works with the application developers to properly test the scenarios in which the database is to operate.
+A database tester should be familiar with the database structure and should fully understand the business rules of the application.
+Database tests can be fully automated, fully manual, or a hybrid approach using a combination of both manual and automated processes. 
+
+...............................................................................................................................................
+
+-- Adhoc testing
+Adhoc testing is a type of software testing that is performed informally and randomly after the formal testing is completed to find any loophole in the system.
+For this reason, it is also known as Random or Monkey testing.
+Adhoc testing is not performed in a structured way so it is not based on any methodological approach.
+That’s why Adhoc testing is a type of Unstructured Software Testing. 
+
+Adhoc testing has – 
+
+No Documentation. 
+No Test cases. 
+No Test Design.
+
+As it is not based on any test cases or requires documentation or test design resolving issues that are identified at last becomes very difficult for developers.
+Sometimes very interesting and unexpected errors or uncommon errors are found which would never have been found in written test cases.
+This Adhoc testing is used in Acceptance testing. 
+
+ADVANTAGES OF ADHOC TESTING ::
+
+1. THE ERRORS THAT CAN NOT BE IDENTIFIED WITH WRITTEN TEST CASES CAN BE IDENTIFIED BY ADHOC TESTING. 
+2. IT CAN BE PERFORMED WITHIN A VERY LIMITED TIME. 
+3. HELPS TO CREATE UNIQUE TEST CASES. 
+4. THIS TEST HELPS TO BUILD A STRONG PRODUCT THAT IS LESS PRONE TO FUTURE PROBLEMS. 
+5. THIS TESTING CAN BE PERFORMED AT ANY TIME DURING SOFTTHE WARE DEVELOPMENT LIFE CYCLE PROCESS (SDLC)
+
+DISADVANTAGES OF ADHOC TESTING ::
+
+1. SOMETIMES RESOLVING ERRORS BASED ON IDENTIFIED ISSUES IS DIFFICULT AS NO WRITTEN TEST CASES AND DOCUMENTS ARE THERE.  
+2. NEEDS GOOD KNOWLEDGE OF THE PRODUCT AS WELL AS TESTING CONCEPTS TO PERFECTLY IDENTIFY THE ISSUES IN ANY MODEL. 
+3. IT DOES NOT PROVIDE ANY ASSURANCE THAT THE ERROR WILL BE IDENTIFIED. 
+4. FINDING ONE ERROR MAY TAKE SOME UNCERTAIN PERIOD.
+
+........................................................................................................................................
+
+-- Recovery testing
+Recovery Testing is a type of software testing that checks how well an application can recover from crashes, failures, or other unexpected issues.
+It involves intentionally causing problems in the software to see if it can quickly and effectively return to normal operation. 
+This helps ensure the software is reliable and can handle unexpected situations without losing data or functionality.
+
+TPYES OF RECOVERY TESTING
+
+1. Database Recovery Testing
+2. Load and Stress Recovery Testing
+3. Crash Recovery Testing
+4. Security Recovery Testing
+5. Data Recovery Testing
+6. Environment Recovery Testing
+
+ADVANTAGES OF RECOVERY TESTING ::
+
+1. IMPROVES THE QUALITY OF THE SYSTEM BY ELIMINATING THE POTENTIAL FLAWS IN THE SYSTEM SO THAT THE SYSTEM WORKS AS EXPECTED.
+2. RECOVERY TESTING IS ALSO REFERRED TO AS DISASTER RECOVERY TESTING. A LOT OF COMPANIES HAVE DISASTER RECOVERY CENTERS TO MAKE SURE THAT IF ANY OF THE SYSTEMS IS DAMAGED OR FAILS DUE TO SOME REASON, THEN THERE IS BACK UP TO RECOVER FROM THE FAILURE.
+3. RISK ELIMINATION IS POSSIBLE AS THE POTENTIAL FLAWS ARE DETECTED AND REMOVED FROM THE SYSTEM.
+4. IMPROVED PERFORMANCE AS FAULTS ARE REMOVED, AND THE SYSTEM BECOMES MORE RELIABLE AND PERFORMS BETTER IN CASE A FAILURE OCCURS.
+5. ENSURES RELIABILITY: CONFIRMS THAT THE SOFTWARE CAN RECOVER FROM CRASHES OR FAILURES, MAKING IT MORE RELIABLE FOR USERS.
+6. IDENTIFIES WEAKNESSES: HELPS UNCOVER POTENTIAL WEAKNESSES OR VULNERABILITIES IN THE SYSTEM THAT COULD LEAD TO FAILURES.
+7. ENHANCES USER EXPERIENCE: ENSURES A SMOOTH USER EXPERIENCE BY MINIMIZING DOWNTIME AND DATA LOSS DURING UNEXPECTED EVENTS.
+8. IMPROVES SYSTEM STABILITY: CONTRIBUTES TO OVERALL SYSTEM STABILITY BY ENSURING IT CAN HANDLE AND RECOVER FROM DISRUPTIONS.
+9. SUPPORTS BUSINESS CONTINUITY: AIDS IN MAINTAINING BUSINESS OPERATIONS BY ENSURING CRITICAL SYSTEMS CAN QUICKLY RESUME FUNCTIONING AFTER A FAILURE.
+10. VALIDATES BACKUP AND RECOVERY PROCEDURES: TESTS THE EFFECTIVENESS OF BACKUP SYSTEMS AND RECOVERY PROCEDURES, ENSURING THEY WORK AS INTENDED.
+11. REDUCES COSTS: BY IDENTIFYING AND ADDRESSING RECOVERY ISSUES EARLY, IT CAN REDUCE THE COSTS ASSOCIATED WITH SYSTEM DOWNTIMES AND DATA LOSSES.
+12. BOOSTS CONFIDENCE: PROVIDES STAKEHOLDERS WITH CONFIDENCE IN THE SYSTEM’S ABILITY TO HANDLE UNFORESEEN PROBLEMS.
+
+DISADVANTAGES OF RECOVERY TESTING ::
+
+1. RECOVERY TESTING IS A TIME-CONSUMING PROCESS AS IT INVOLVES MULTIPLE STEPS AND PREPARATIONS BEFORE AND DURING THE PROCESS.
+2. THE RECOVERY PERSONNEL MUST BE TRAINED AS THE PROCESS OF RECOVERY TESTING TAKES PLACE UNDER HIS SUPERVISION. SO, THE TESTER NEEDS TO BE TRAINED TO ENSURE THAT RECOVERY TESTING IS PERFORMED IN THE PROPER WAY. FOR PERFORMING RECOVERY TESTING, HE SHOULD HAVE ENOUGH DATA AND BACK UP FILES TO PERFORM RECOVERY TESTING.
+3. THE POTENTIAL FLAWS OR ISSUES ARE UNPREDICTABLE IN A FEW CASES. IT IS DIFFICULT TO POINT OUT THE EXACT REASON FOR THE SAME, HOWEVER, SINCE THE QUALITY OF THE SOFTWARE MUST BE MAINTAINED, SO RANDOM TEST CASES ARE CREATED AND EXECUTED TO ENSURE SUCH POTENTIAL FLAWS ARE REMOVED.
+4. TIME-CONSUMING: SIMULATING FAILURES AND ENSURING PROPER RECOVERY CAN BE A LENGTHY PROCESS, ESPECIALLY FOR COMPLEX SYSTEMS.
+5. RESOURCE-INTENSIVE: REQUIRES SIGNIFICANT COMPUTATIONAL AND HUMAN RESOURCES TO CREATE AND MANAGE VARIOUS FAILURE SCENARIOS.
+6. COMPLEXITY: DEVELOPING EFFECTIVE RECOVERY TEST CASES CAN BE COMPLICATED, AS IT INVOLVES UNDERSTANDING POTENTIAL FAILURE POINTS AND DESIGNING APPROPRIATE RECOVERY STRATEGIES.
+7. COSTLY: DUE TO THE NEED FOR SPECIALIZED TOOLS AND RESOURCES, RECOVERY TESTING CAN BE EXPENSIVE TO IMPLEMENT AND MAINTAIN. WHY DO WE DO RECOVERY TESTING?
+8. RISK OF DATA LOSS: IF NOT PROPERLY MANAGED, TESTING FAILURES COULD RESULT IN ACTUAL DATA LOSS OR CORRUPTION, AFFECTING THE INTEGRITY OF THE SYSTEM.
+9. FALSE SENSE OF SECURITY: IF NOT COMPREHENSIVE, RECOVERY TESTING MIGHT MISS CERTAIN FAILURE SCENARIOS, LEADING TO A FALSE SENSE OF CONFIDENCE IN THE SOFTWARE’S ROBUSTNESS.
+10. ENVIRONMENT DEPENDENCY: THE TESTING ENVIRONMENT MIGHT NOT ACCURATELY REPLICATE REAL-WORLD CONDITIONS, LEADING TO POTENTIAL DISCREPANCIES IN RECOVERY PERFORMANCE.
+
+........................................................................................................................................
+
+-- Static testing
+Static Testing also known as Verification testing or Non-execution testing is a type of Software Testing method that is performed in the early stage of development to avoid errors as it is easier to find sources of failures and it can be fixed easily. 
+The errors that cannot be found using Dynamic Testing, can be easily found by Static Testing. 
+
+1. Static can be done manually or with the help of tools to find bugs and improve the quality of the software.
+2. It helps to find errors in the early stage of development which is also called the verification process.
+3. It enhances maintainability and ultimately saves time and money in the long run.
+
+LIMITATIONS OF STATIC TESTING
+
+1.DETECT SOME ISSUES: STATIC TESTING MAY NOT UNCOVER ALL ISSUES THAT COULD ARISE DURING RUNTIME. SOME DEFECTS MAY APPEAR ONLY DURING DYNAMIC TESTING WHEN THE SOFTWARE RUNS.
+2.DEPENDS ON THE REVIEWER’S SKILLS: THE EFFECTIVENESS OF STATIC TESTING DEPENDS ON THE REVIEWER’S SKILLS, EXPERIENCE, AND KNOWLEDGE.
+3.TIME-CONSUMING: STATIC TESTING CAN BE TIME-CONSUMING WHEN WORKING ON LARGE AND COMPLEX PROJECTS.
+4.NO RUNTIME ENVIRONMENT: IT IS CONDUCTED WITHOUT EXECUTING THE CODE. THIS MEANS IT CANNOT DETECT RUNTIME ERRORS SUCH AS MEMORY LEAKS, PERFORMANCE ISSUES, ETC.
+5.PRONE TO HUMAN ERROR: STATIC TESTING IS PRONE TO HUMAN ERROR DUE TO MANUAL REVIEWS AND INSPECTIONS TECHNIQUES BEING USED.
+
+............................................................................................................................................
+
+-- Grey box testing 
+Gray Box Testing is a software testing technique that is a combination of the Black Box Testing technique and the White Box Testing technique.
+
+In the Black Box Testing technique, the tester is unaware of the internal structure of the item being tested and in White Box Testing the internal structure is known to the tester.
+The internal structure is partially known in Gray Box Testing.
+This includes access to internal data structures and algorithms to design the test cases.
+Gray Box Testing is named so because the software program is like a semitransparent or gray box inside which the tester can partially see.
+It commonly focuses on context-specific errors related to web systems.
+It is based on requirement test case generation because it has all the conditions presented before the program is tested.
+
+ADVANTAGES OF GRAY BOX TESTING ::
+
+1. CLARITY OF GOALS: USERS AND DEVELOPERS HAVE CLEAR GOALS WHILE DOING TESTING.
+2. DONE FROM USER PERSPECTIVE: GRAY BOX TESTING IS MOSTLY DONE BY THE USER PERSPECTIVE.
+3. HIGH PROGRAMMING SKILLS NOT REQUIRED: TESTERS ARE NOT REQUIRED TO HAVE HIGH PROGRAMMING SKILLS FOR THIS TESTING.
+4. NON-INTRUSIVE: GRAY BOX TESTING IS NON-INTRUSIVE.
+5. IMPROVED PRODUCT QUALITY: OVERALL QUALITY OF THE PRODUCT IS IMPROVED.
+6. DEFECT FIXING: IN GRAY BOX TESTING, DEVELOPERS HAVE MORE TIME FOR DEFECT FIXING.
+7. BENEFITS OF BLACK BOX AND WHITE BOX TESTING: BY DOING GRAY BOX TESTING, BENEFITS OF BOTH BLACK BOX AND WHITE BOX TESTING IS OBTAINED.
+8. UNBIASED: GRAY BOX TESTING IS UNBIASED. IT AVOIDS CONFLICTS BETWEEN A TESTER AND A DEVELOPER.
+9. EFFECTIVE TESTING: GRAY BOX TESTING IS MUCH MORE EFFECTIVE IN INTEGRATION TESTING.
+
+DISADVANTAGES OF GRAY BOX TESTING ::
+
+1. DIFFICULTY IN DEFECT ASSOCIATION: DEFECT ASSOCIATION IS DIFFICULT WHEN GRAY TESTING IS PERFORMED FOR DISTRIBUTED SYSTEMS.
+2. LIMITED ACCESS TO INTERNAL STRUCTURE: LIMITED ACCESS TO INTERNAL STRUCTURE LEADS TO LIMITED ACCESS FOR CODE PATH TRAVERSAL.
+3. SOURCE CODE NOT ACCESSIBLE: BECAUSE SOURCE CODE CANNOT BE ACCESSED, DOING COMPLETE WHITE BOX TESTING IS NOT POSSIBLE.
+4. NOT SUITABLE FOR ALGORITHM TESTING: GRAY BOX TESTING IS NOT SUITABLE FOR ALGORITHM TESTING.
+5. TEST CASES DIFFICULT TO DESIGN: MOST OF THE TEST CASES ARE DIFFICULT TO DESIGN.
+
+......................................................................................................................................
+
+-- Component testing
+Component Testing is a type of software testing in which usability of each individual component is tested.
+Along with the usability test, behavioral evaluation is also done for each individual component. 
+To perform this type of testing, each component needs to be in independent state and also should be in controllable state.
+Each component of the software should be user comprehensible.
+Assume in a software application consists of five components.
+The testing of each component is done independently by the tester as part of the development cycle before integration testing is performed on it.
+It helps in saving time by finding the bugs at a very early stage in the cycle.
+Test structure tools or debugging tools are used for this type of testing as this is performed by programmers on the code written by them and with the support of IDE. Defects detected during component testing are fixed as soon as possible when they are found without maintaining the records.
+Component testing has an important role in finding the issue. 
+Before processing with the integration testing, component testing is performed in order to ensure that each component of the application is working correctly and as per requirement.
+
+......................................................................................................................................
+
+WITH THIS WE HEREBY DECLARE END OF TYPES OF FUNCTIONAL TESTING .
+
+THANK YOU 
+BYE ;)
+
+
