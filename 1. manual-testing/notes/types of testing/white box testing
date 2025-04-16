@@ -1,1 +1,130 @@
+## WHITH THIS WE START NEW TOPIC ABOUT WHITE BOX TESTING ##
+
+WHAT IS WHITE BOX TESTING?
+White box testing is a Software Testing Technique that involves testing the internal structure and workings of a Software Application. 
+The tester has access to the source code and uses this knowledge to design test cases that can verify the correctness of the software at the code level.
+
+White box testing is also known as Structural Testing or Code-based Testing, and it is used to test the software’s internal logic, flow, and structure.
+The tester creates test cases to examine the code paths and logic flows to ensure they meet the specified requirements.
+
+WHAT DOES WHITE BOX TESTING FOCUS ON?
+......................................................................................................................................................................
+1. PATH TESTING
+......................................................................................................................................................................
+Path Testing is a method that is used to design the test cases. In the path testing method, the control flow graph of a program is designed to find a set of linearly independent paths of execution.
+In this method, Cyclomatic Complexity is used to determine the number of linearly independent paths and then test cases are generated for each path. 
+
+It gives complete branch coverage but achieves that without covering all possible paths of the control flow graph.
+McCabe’s Cyclomatic Complexity is used in path testing. It is a structural testing method that uses the source code of a program to find every possible executable path. 
+
+Advantages of Path Testing ::
+
+1. The path testing method reduces the redundant tests.
+2. Path testing focuses on the logic of the programs.
+3. Path testing is used in test case design.
+
+Disadvantages of Path Testing ::
+
+1. A tester needs to have a good understanding of programming knowledge or code knowledge to execute the tests.
+2. The test case increases when the code complexity is increased.
+3. It will be difficult to create a test path if the application has a high complexity of code.
+4. Some test paths may skip some of the conditions in the code. It may not cover some conditions or scenarios if there is an error in the specific paths.
+......................................................................................................................................................................
+2. INPUT AND OUTPUT VALIDATION
+......................................................................................................................................................................
+By providing different inputs to a function, white box testing check the the function gives the correct output each of the time.
+This helps to confirm that the software consistently produces the required results under various conditions.
+......................................................................................................................................................................
+3. SECURITY TESTING
+......................................................................................................................................................................
+Security Testing is a type of Software Testing that uncovers vulnerabilities in the system and determines that the data and resources of the system are protected from possible intruders.
+It ensures that the software system and application are free from any threats or risks that can cause a loss.
+Security testing of any system is focused on finding all possible loopholes and weaknesses of the system that might result in the loss of information or repute of the organization.
+
+Advantages of Security Testing ::
+
+1. Identifying vulnerabilities: Security testing helps identify vulnerabilities in the system that could be exploited by attackers, such as weak passwords, unpatched software, and misconfigured systems.
+2. Improving system security: Security testing helps improve the overall security of the system by identifying and fixing vulnerabilities and potential threats.
+3. Ensuring compliance: Security testing helps ensure that the system meets relevant security standards and regulations, such as HIPAA, PCI DSS, and SOC2.
+4. Reducing risk: By identifying and fixing vulnerabilities and potential threats before the system is deployed to production, security testing helps reduce the risk of a security incident occurring in a production environment.
+5. Improving incident response: Security testing helps organizations understand the potential risks and vulnerabilities that they face, enabling them to prepare for and respond to potential security incidents.
+
+Disadvantages of Security Testing ::
+
+1. Resource-intensive: Security testing can be resource-intensive, requiring significant hardware and software resources to simulate different types of attacks.
+2. Complexity: Security testing can be complex, requiring specialized knowledge and expertise to set up and execute effectively.
+3. Limited testing scope: Security testing may not be able to identify all types of vulnerabilities and threats.
+4. False positives and negatives: Security testing may produce false positives or false negatives, which can lead to confusion and wasted effort.
+5. Time-consuming: Security testing can be time-consuming, especially if the system is large and complex.
+6. Difficulty in simulating real-world attacks: It’s difficult to simulate real-world attacks, and it’s hard to predict how attackers will interact with the system.
+......................................................................................................................................................................
+4. LOOP SOFTWARE TESTING
+......................................................................................................................................................................
+Loop Testing is a type of software testing type that is performed to validate the loops.
+It is one of the type of Control Structure Testing. Loop testing is a white box testing technique and is used to test loops in the program.
+
+Objectives of Loop Testing:
+The objective of Loop Testing is:
+
+To fix the infinite loop repetition problem.
+To know the performance.
+To identify the loop initialization problems.
+To determine the uninitialized variables.
+
+Advantages of Loop Testing ::
+
+1. Loop testing limits the number of iterations of loop.
+2. Loop testing ensures that program doesn’t go into infinite loop process.
+3. Loop testing endures initialization of every used variable inside the loop.
+4. Loop testing helps in identification of different problems inside the loop.
+5. Loop testing helps in determination of capacity.
+
+Disadvantages of Loop Testing:
+
+1. Loop testing is mostly effective in bug detection in low-level software.
+2. Loop testing is not useful in bug detection.
+......................................................................................................................................................................
+5. DATA FLOWING TESTING
+......................................................................................................................................................................
+Data Flow Testing is a type of structural testing .
+It is a method that is used to find the test paths of a program according to the locations of definitions and uses of variables in the program. 
+It has nothing to do with data flow diagrams. Furthermore, it is concerned with:
+
+Statements where variables receive values,
+Statements where these values are used or referenced.
+
+By analyzing control flow graphs, this technique aims to identify issues such as unused variables or incorrect definitions, ensuring proper handling of data within the code.
+To gain a deeper understanding of Data Flow Testing and enhance your testing skills
+
+Advantages of Data Flow Testing ::
+
+1. To find a variable that is used but never defined,
+2. To find a variable that is defined but never used,
+3. To find a variable that is defined multiple times before it is use,
+4. Deallocating a variable before it is used.
+
+Disadvantages of Data Flow Testing ::
+
+1. Time consuming and costly process
+2. Requires knowledge of programming languages
+.................................................................................................................................................................
+
+TYPES OF WHITE BOX TESTING ARE :
+
+UNIT TESTING
+INTEGRATION TESTING
+REGRESSION TESTING 
+
+NOTE - if you have not checked previous files please check it above testing types are explained in detailed in black box testing types .
+
+The topic ends here
+Thank you . 
+Bye;)
+
+
+
+
+
+
+
 
