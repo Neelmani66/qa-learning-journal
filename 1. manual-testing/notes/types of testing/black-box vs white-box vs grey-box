@@ -1,1 +1,70 @@
+BLACK BOX --- BX
+WHITE BOX --- WX
+GREY BOX --- GX
+
+
+Available Information :
+
+BX --- Tester has no knowledge of the internal workings including source code and architecture. 
+WX --- Focuses on inputs and outputs.	Tester has full knowledge of internal workings, including source code and architecture.
+GX --- Tester has partial knowledge, such as access to design documents but not the source code.
+
+Test Coverage :
+
+BX ---Limited coverage, based on expected behavior and requirements without internal knowledge.
+WX --- Full coverage, as tester has access to source code and can test all code paths.	
+GX --- Moderate coverage, with focus on areas where some knowledge is available.
+
+Time of AnalysiS :
+
+BX --- Performed after the application is built, during later stages of the SDLC.	
+WX --- Can be performed early in the SDLC, integrating into the development process.
+GX --- Performed after some parts of the application are built but allows for earlier analysis than black box testing.
+
+Tool Usage	:
+
+BX --- Uses dynamic analysis tools for testing during runtime, focusing on user behavior.
+WX --- Uses static analysis tools (like code analyzers) to inspect source code.	
+GX --- Uses both dynamic and limited static analysis tools depending on available knowledge.
+
+Tester Mindset :
+
+BX --- Acts as an end user, focusing on functionality without knowledge of internal workings.	
+WX --- Acts like a developer, focusing on internal logic, structure, and code.	
+GX --- Partially a developer and user, focusing on the expected behavior with some internal knowledge.
+
+Test Case Input Size	:
+
+BX --- Largest, as it needs to cover broad user interactions and scenarios.
+WX --- Smaller compared to black box, as it focuses on specific code paths.	
+GX --- Smaller than both black and white box, focused on available knowledge areas.
+
+Finding Hidden Errors :
+
+BX --- Difficult to detect, as it focuses only on outputs.
+WX --- Easier due to full access to internal code and logic.	
+GX --- Challenging, may find some hidden errors that are visible at the user level.
+
+Algorithm Testing	:
+
+BX --- Not suitable, as it lacks the internal access to algorithms.
+WX --- Well-suited for testing internal algorithms and logic.
+GX --- Not suitable, as it lacks full access to algorithms and internal code.
+
+Other Names	:
+
+BX --- Functional testing, data-driven testing, closed box testing.	
+WX --- Structural testing, clear box testing, code-based testing, transparent testing.	
+GX --- Translucent testing.
+
+
+
+
+
+
+
+
+
+
+
 
