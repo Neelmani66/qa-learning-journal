@@ -357,5 +357,124 @@ Benefits of Failover Testing ::
 
 .....................................................................................................................................................................
 
--- 
+-- Portability Testing is the type of software testing, which is carried out to determine the degree of ease or difficulty to which a software application can be effectively and efficiently transferred from one hardware, software, or environment to another one. 
+The results of portability testing are measurements of how easily the software component or application will be integrated into the environment and then these results will be compared to the non-functional requirement of portability of the software system.
+
+Objectives of Portability Testing
+
+1. Compatibility of Browsers: It verifies the application’s consistent behavior and looks by testing it in various web browsers.
+2. Testing the Network Environment: It examines the application’s performance in relation to various network parameters, such as latency and bandwidth variations.
+3. Error Correction and Recovery: It makes sure the program recovers gracefully from failures and exceptions in a variety of settings.
+4. Validation of Documentation: It verifies that the user manuals and help files, among other materials, are accurate and suitable for various contexts.
+5. Usability in a Variety of Settings: It makes sure end users have a smooth experience by assessing the overall usability and user experience across several platforms.
+
+Advantages of Portability Testing ::
+
+1. Identification of Dependencies: It helps in identification of the dependencies between two applications.
+2. Suitability for Large Systems: It is especially used in large systems which have several subsystems as part of it.
+3. User Environment Variability: It is performed when the user of application uses multiple environments.
+4. Detection of Missed Defects: Defects that are missed during unit and integration testing are detected during this testing.
+5. Performance Testing Across Environments: Performance and responsiveness of an application is tested across various browsers and various operating systems.
+6. User Interface and Functional Features: User interface and functional features of the application on various browsers and various operating systems are checked using this testing.
+7. Functionality Verification Across Environments: It helps in determining whether the functionality of the application is as expected on various operating systems and various browsers.
+
+Disadvantages of Portability Testing ::
+
+1. Time Constraints: It is not performed when a time constraint is applicable on the software testing cycle.
+2. Budget Requirements: A lot of budget is required for portability testing for various operating systems and various browsers.
+3. Maintenance: Support for maintenance of the setup hardware configuration is needed.
+4. Complexity in Multi-User Environments: Portability testing in a multi-user environment is very tricky.
+5. Storage space: A lot of storage space is required for portability testing.
+
+....................................................................................................................................................................
+
+-- Reliability testing
+Reliability testing is a Type of software testing that evaluates the ability of a system to perform its intended function consistently and without failure over an extended period.
+
+Reliability testing aims to identify and address issues that can cause the system to fail or become unavailable.
+It is defined as a type of software testing that determines whether the software can perform a failure-free operation for a specific period in a specific environment.
+It ensures that the product is fault-free and is reliable for its intended purpose. 
+It is an important aspect of software testing as it helps to ensure that the system will be able to meet the needs of its users over the long term.
+It can also help to identify issues that may not be immediately apparent during functional testing, such as memory leaks or other performance issues.
+
+...................................................................................................................................................................
+
+-- Baseline testing
+Baseline Testing is a fundamental process for evaluating a system or component’s initial performance and characteristics.
+It serves as a reference point, establishing a benchmark for future comparisons.
+During this testing, software application performance metrics are meticulously recorded and documented. 
+These metrics provide a snapshot of the system’s performance under specific conditions, including workload, user interactions, and environmental variables.
+
+Baseline testing sets the stage by measuring and documenting how a system or software application performs when it’s first tested.
+It captures crucial performance data, enabling organizations to establish a baseline or a “normal” operating condition.
+This baseline becomes a point of reference for subsequent tests, allowing comparisons to be made to detect any deviations, improvements, or potential issues in performance or behavior.
+
+Whether it’s assessing the speed and responsiveness of a software application, the throughput of a network infrastructure, or the efficiency of a hardware component, baseline testing is a vital step to ensure that the system meets the desired performance requirements.
+It provides valuable insights into the system’s initial performance and helps organizations identify any performance variations or anomalies that may arise during future testing or production.
+
+....................................................................................................................................................................
+
+-- Documentation testing
+Testing documents are prepared at different stages. These documents are discussed as follows.
+
+1. Before Testing:
+
+Since testing begins with the generation of the test cases. The following documents are required for reference –
+
+SRS document – Functional Requirements document.
+Test Policy document – It means the product must be tested far before release.
+Test Strategy document – It mentions detailed aspects of test the team, responsibility matrix, and rights/responsibilities of the test manager and test engineer.
+Traceability Matrix document – This is SDLC document, that is related to the requirements-gathering process. As new requirements come, they are added to this matrix. They can be traced forward and backward. These matrices help testers know the source of the requirement.
+
+2. During Testing:
+
+While testing is started and is being done, the following documents may be required.
+
+Test Case document – It contains the list of to-be tests. It includes various testing like Unit test plan, Integration test plan, System test plan and Acceptance test plan.
+Test description – It is a detailed description of all test cases and procedures for executing them.
+Test case report – It contains a test case report resulting from the test.
+Test logs – It contains test logs for every test case report.
+
+3. After Testing:
+
+After testing, only the test summary remains which is a collective analysis of all test reports and logs. 
+The software is released under the version control system if it is ready to launch. It summarizes and concludes whether the software is ready to launch.
+
+...................................................................................................................................................................
+
+-- Localization testing
+Localization Testing is a Type of Software Testing that is performed to verify the quality of a product for a specific culture or locale.
+Localization testing is performed only on the local version of the product.
+
+Localization testing ensures that the application is capable enough to be used in that specific region.
+It tests the user interface, language vocabulary, currency format, date & time format for that specific country only.
+
+For example, QQ is a social media platform specifically designed for the chinese people. 
+It supports language chinese and every other aspects in a specific way.
+
+Advantages of Localization Testing ::
+
+1. Localization testing reduces the overall testing cost.
+2. Localization testing reduces the overall support cost.
+3. It helps in reducing the time for testing.
+4. Localization testing has more flexibility and scalability.
+
+Disadvantages of Localization Testing ::
+
+1. Localization testing requires a local expert to perform it.
+2. It is expensive to have the local translator.
+3. There might be schedule challenges for the tester.
+
+..................................................................................................................................................................
+
+-- Internationation testing
+Internationalization testing is a process of ensuring the adaptability of software to different cultures and languages around the world without any modifications in source code.  
+
+It is also shortly known as i18n, in which 18 represents the number of characters in between I & N in the word Internationalization. 
+Internationalization simply makes applications ready for localization.  
+
+..................................................................................................................................................................
+
+Thank you
+Bye;)
 
