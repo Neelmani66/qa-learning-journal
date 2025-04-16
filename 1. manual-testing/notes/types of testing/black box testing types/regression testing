@@ -1,1 +1,42 @@
+## THIS IS 2ND TYPE OF BLACK BOX TESTING ##
+
+Regression testing is a crucial aspect of software engineering that ensures the stability and reliability of a software product.
+It involves retesting the previously tested functionalities to verify that recent code changes haven’t adversely affected the existing features.
+
+By identifying and fixing any regression or unintended bugs, regression testing helps maintain the overall quality of the software. 
+This process is essential for software development teams to deliver consistent and high-quality products to their users.
+
+When to do regression testing?
+
+When new functionality is added to the system and the code has been modified to absorb and integrate that functionality with the existing code.
+When some defect has been identified in the software and the code is debugged to fix it.
+When the code is modified to optimize its working.
+
+Process of regression testing ::
+
+program failure---> debugging---> identification of bugs---> modification of source code---> select testcase for modified code---> execute test case
+
+Advantages of Regression Testing ::
+
+Automated unit testing
+Comprehensive test coverage
+System integration
+Faster test execution completion
+Improved developer productivity
+Parallel testing
+Reduced costs
+Regression testing improves product quality
+Reusability
+Scalability
+Time efficiency
+
+Disadvantages of Regression Testing::
+
+It can be time and resource-consuming if automated tools are not used.
+It is required even after very small changes in the code.
+Time and Resource Constraints.
+Among the significant risks associated with regression testing are the time and resources required to perform it.
+Incomplete or Insufficient Test Coverage.
+False Positives and False Negatives.
+Test Data Management Challenges.
 
