@@ -11,7 +11,6 @@ This roadmap outlines my learning journey from zero to becoming a skilled QA/Sof
 - [ .] Types of Testing (Functional, Non-functional, etc.)
 - [ .] Levels of Testing (Unit, Integration, System, Acceptance)
 - [ ] Test Case Writing & Bug Reporting
-- [ ] Severity vs Priority
 - [ ] Agile Testing Basics
 - [ ] JIRA Basics
 
