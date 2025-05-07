@@ -1,1 +1,152 @@
+NOW LETS TAKE ABOUT SDLC (SOFTWARE DEVELOPMENT LIFE CYCLE) AND ITS PHASE
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+The Software Development Life Cycle (SDLC) is a process used by software development organizations to plan, design, develop, test, deploy, and maintain software applications.
+SDLC (Software Development Life Cycle) is used in Every Software Development Company because it is the root of the Development Cycle, if that model would not exist in the world, firstly no software can build secondly if any how it would be made, it’s not going to succeed it has no use, because of no maintenance.
+
+To provide a structured and organized approach to software development: The SDLC provides a framework for managing the software development process, which helps to ensure that all necessary steps are taken and that the final product meets the requirements.
+
+1.To ensure that the software is of high quality: The SDLC includes testing and quality assurance phases, which help to ensure that the software is free of bugs and that it meets the requirements.
+
+2.To manage risks and costs: The SDLC helps organizations to identify and manage risks early in the development process, which can help to reduce costs and minimize the impact of any issues that do arise.
+
+3.To improve communication and collaboration: The SDLC helps to ensure that all stakeholders, including customers, end-users, and developers, are involved in the development process and that their needs are taken into account.
+
+4.To improve efficiency and productivity: The SDLC helps organizations to optimize the use of resources and to streamline the development process, which can improve efficiency and productivity.
+
+5.To increase the likelihood of a successful project outcome: Following a well-defined SDLC process can greatly increase the chances of success of the project, as the process guides the team towards the goal in a systematic and efficient way.
+
+____________________________________________________________________________________________________________________________________________________________________
+Now lets talk about phase in sdlc 
+
+1. Requirements gathering and analysis: This phase involves gathering information about the software requirements from stakeholders, such as customers, end-users, and business analysts.
+
+2. Design: In this phase, the software design is created, which includes the overall architecture of the software, data structures, and interfaces. It has two steps:
+
+High-level design (HLD): It gives the architecture of software products.
+Low-level design (LLD): It describes how each and every feature in the product should work and every component.
+
+3. Implementation or coding: The design is then implemented in code, usually in several iterations, and this phase is also called as Development.
+
+things you need to know about this phase:
+
+This is the longest phase in SDLC model.
+This phase consists of Front end + Middleware + Back-end.
+In front-end: Development of coding is done even SEO settings are done.
+In Middleware: They connect both the front end and back end.
+In the back-end: A database is created.
+
+4. Testing: The software is thoroughly tested to ensure that it meets the requirements and works correctly.
+
+5. Deployment: After successful testing, The software is deployed to a production environment and made available to end-users.
+
+6. Maintenance: This phase includes ongoing support, bug fixes, and updates to the software.
+
+__________________________________________________________________________________________________________________________________________________________________
+
+THEIR ARE VARIETY OF DIFFERENT METHODOLOGIES THAT DIFFERENT ORGANISATION CAN BE USED .
+__________________________________________________________________________________________________________________________________________________________________
+
+NOW LETS TALK ABOUT STLC (SOFTWARE TESTING LIFE CYCLE)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The Software Testing Life Cycle (STLC) in which a process to verify whether the Software Quality meets to the expectations or not.
+
+STLC is an important process that provides a simple approach to testing through the step-by-step process, which we are discussing here.
+
+PHASES OF SOFTWARE TESTING LIFE CYCLE INCLUDES
+____________________________________________________________________________________________________________________________________________________________________
+
+1. Requirement Analysis
+Requirement Analysis is the first step of the Software Testing Life Cycle (STLC).
+In this phase quality assurance team understands the requirements like what is to be tested. 
+If anything is missing or not understandable then the quality assurance team meets with the stakeholders to better understand the detailed knowledge of requirements.                  
+
+The activities that take place during the Requirement Analysis stage include:
+
+Reviewing the software requirements document (SRD) and other related documents
+Interviewing stakeholders to gather additional information
+Identifying any ambiguities or inconsistencies in the requirements
+Identifying any missing or incomplete requirements
+Identifying any potential risks or issues that may impact the testing process
+Creating a requirement traceability matrix (RTM) to map requirements to test cases
+At the end of this stage, the testing team should have a clear understanding of the software requirements and should have identified any potential issues that may impact the testing process.
+This will help to ensure that the testing process is focused on the most important areas of the software and that the testing team is able to deliver high-quality results.
+
+2. Test Planning
+Test Planning is the most efficient phase of the software testing life cycle where all testing plans are defined.
+In this phase manager of the testing, team calculates the estimated effort and cost for the testing work.
+This phase gets started once the requirement-gathering phase is completed.
+
+The activities that take place during the Test Planning stage include:
+
+Identifying the testing objectives and scope
+Developing a test strategy: selecting the testing methods and techniques that will be used
+Identifying the testing environment and resources needed
+Identifying the test cases that will be executed and the test data that will be used
+Estimating the time and cost required for testing
+Identifying the test deliverables and milestones
+Assigning roles and responsibilities to the testing team
+Reviewing and approving the test plan
+At the end of this stage, the testing team should have a detailed plan for the testing activities that will be performed, and a clear understanding of the testing objectives, scope, and deliverables.
+This will help to ensure that the testing process is well-organized and that the testing team is able to deliver high-quality results.
+
+3. Test Case Development
+The Test Case Development phase gets started once the test planning phase is completed. In this phase testing team notes down the detailed test cases.
+The testing team also prepares the required test data for the testing. When the test cases are prepared then they are reviewed by the quality assurance team.
+
+The activities that take place during the Test Case Development stage include:
+
+Identifying the test cases that will be developed
+Writing test cases that are clear, concise, and easy to understand
+Creating test data and test scenarios that will be used in the test cases
+Identifying the expected results for each test case
+Reviewing and validating the test cases
+Updating the requirement traceability matrix (RTM) to map requirements to test cases
+At the end of this stage, the testing team should have a set of comprehensive and accurate test cases that provide adequate coverage of the software or application.
+This will help to ensure that the testing process is thorough and that any potential issues are identified and addressed before the software is released.
+
+4. Test Environment Setup
+Test Environment Setup is an important part of the STLC. Basically, the test environment decides the conditions on which software is tested.
+This is independent activity and can be started along with test case development.
+In this process, the testing team is not involved. either the developer or the customer creates the testing environment.
+
+5. Test Execution
+In Test Execution, after the test case development and test environment setup test execution phase gets started. 
+In this phase testing team starts executing test cases based on prepared test cases in the earlier step.
+
+The activities that take place during the test execution stage of the Software Testing Life Cycle (STLC) include:
+
+Test execution: The test cases and scripts created in the test design stage are run against the software application to identify any defects or issues.
+Defect logging: Any defects or issues that are found during test execution are logged in a defect tracking system, along with details such as the severity, priority, and description of the issue.
+Test data preparation: Test data is prepared and loaded into the system for test execution
+Test environment setup: The necessary hardware, software, and network configurations are set up for test execution
+Test execution: The test cases and scripts are run, and the results are collected and analyzed.
+Test result analysis: The results of the test execution are analyzed to determine the software’s performance and identify any defects or issues.
+Defect retesting: Any defects that are identified during test execution are retested to ensure that they have been fixed correctly.
+Test Reporting: Test results are documented and reported to the relevant stakeholders.
+It is important to note that test execution is an iterative process and may need to be repeated multiple times until all identified defects are fixed and the software is deemed fit for release.
+
+6. Test Closure
+Test Closure is the final stage of the Software Testing Life Cycle (STLC) where all testing-related activities are completed and documented. 
+The main objective of the test closure stage is to ensure that all testing-related activities have been completed and that the software is ready for release.
+
+At the end of the test closure stage, the testing team should have a clear understanding of the software’s quality and reliability, and any defects or issues that were identified during testing should have been resolved. 
+The test closure stage also includes documenting the testing process and any lessons learned so that they can be used to improve future testing processes
+
+Test closure is the final stage of the Software Testing Life Cycle (STLC) where all testing-related activities are completed and documented.
+The main activities that take place during the test closure stage include:
+
+Test summary report: A report is created that summarizes the overall testing process, including the number of test cases executed, the number of defects found, and the overall pass/fail rate.
+Defect tracking: All defects that were identified during testing are tracked and managed until they are resolved.
+Test environment clean-up: The test environment is cleaned up, and all test data and test artifacts are archived.
+Test closure report: A report is created that documents all the testing-related activities that took place, including the testing objectives, scope, schedule, and resources used.
+Knowledge transfer: Knowledge about the software and testing process is shared with the rest of the team and any stakeholders who may need to maintain or support the software in the future.
+Feedback and improvements: Feedback from the testing process is collected and used to improve future testing processes
+It is important to note that test closure is not just about documenting the testing process, but also about ensuring that all relevant information is shared and any lessons learned are captured for future reference. 
+The goal of test closure is to ensure that the software is ready for release and that the testing process has been conducted in an organized and efficient manner.
+
+
+THANK YOU FOR READING
+BYE ;)
