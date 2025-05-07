@@ -1,1 +1,78 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TESTING DOCUMENTATION
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Before Testing:
+
+Since testing begins with the generation of the test cases. The following documents are required for reference –
+
+SRS document – Functional Requirements document.
+Test Policy document – It means the product must be tested far before release.
+Test Strategy document – It mentions detailed aspects of test the team, responsibility matrix, and rights/responsibilities of the test manager and test engineer.
+Traceability Matrix document – This is SDLC document, that is related to the requirements-gathering process. As new requirements come, they are added to this matrix. 
+They can be traced forward and backward. These matrices help testers know the source of the requirement.
+2. During Testing:
+
+While testing is started and is being done, the following documents may be required.
+
+Test Case document – It contains the list of to-be tests. It includes various testing like Unit test plan, Integration test plan, System test plan and Acceptance test plan.
+Test description – It is a detailed description of all test cases and procedures for executing them.
+Test case report – It contains a test case report resulting from the test.
+Test logs – It contains test logs for every test case report.
+3. After Testing:
+
+After testing, only the test summary remains which is a collective analysis of all test reports and logs.
+The software is released under the version control system if it is ready to launch. It summarizes and concludes whether the software is ready to launch.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TEST SCENARIO
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scenario testing helps testers to know how the software will exactly work when end user will use it.
+As the scenario testing tests the business process flow of the software so it helps in figure out a lot of defects which cannot be found with the help of other testing.
+Scenario testing is carried out by creating test scenarios which copy the end users usage.
+
+Scenario Testing is a Software Testing Technique that uses scenarios i.e. speculative stories to help the tester work through a complicated problem or test system. 
+The ideal scenario test is a reliable, complicated, convincing or motivating story the outcome of which is easy to assess. 
+It is performed to ensure that the end to end functioning of software and all the process flow of the software are working properly.
+
+In scenario testing:
+
+The testers assume themselves to be the end users and find the real world scenarios or use cases which can be carried out on the software by the end user.
+The testers take help from clients, stakeholders and developers to create test scenarios.
+A test scenario is a story which describes the usage of the software by an end user. 
+
+Methods in Scenario Testing
+
+System scenarios: Scenario tests used in this method are only those sets of realistic, user activities that cover various components in the system.
+
+Use-case and role-based scenarios In the use-case and role-based scenario method the focus is specifically on how the system is used by a user with different roles and environment.
+
+Recovery Scenarios: Test scenarios for data backup, restoration and recovery are called recovery scenarios.
+Additionally, it assesses how the system would function in the case of a server or component failure.
+
+Positive Scenarios: Examining the system in conditions that are common and expected.
+
+Negative Scenarios: Assessing the way the system responds to incorrect or unexpected inputs and circumstances.
+
+Boundary Scenarios: Testing the system at the boundaries of its inputs and outputs is known as boundary scenario.
+
+Error scenarios: These involve generating error scenarios and testing that the system reacts correctly.
+
+
+
+Risks of Scenario Testing
+
+Limited Scenario Reporting: Inadequate coverage may result from not identifying or testing every case that could arise.
+
+Little In-depth Analysis of Edge Cases: If edge situations or extreme possibilities are disregarded, there could be problems when using them in the actual world.
+
+High Maintenance Costs: Maintaining a big number of situations can get expensive and time-consuming.
+
+Dependency on Data: Since scenarios could rely heavily on particular data sets, simulating differences in real life might be difficult.
+
+A Lost Feeling of Security: If other crucial testing kinds, like unit or integration testing, are disregarded, relying just on scenario testing could provide a false sense of security.
+
+Excessive Focus on Positive Situations: Over focusing on favorable possibilities can cause one to overlook bad or extraordinary scenarios, which are more likely to cause problems for the system.
+
+The complexity of executing a scenario: Complex scenario execution might be prone to errors, making it challenging to replicate problems or interpret test findings.
+
 
