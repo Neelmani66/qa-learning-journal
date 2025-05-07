@@ -6,11 +6,11 @@ This roadmap outlines my learning journey from zero to becoming a skilled QA/Sof
 
 ## ✅ Phase 1: Manual Testing Foundations
 
-- [ ] What is Software Testing?
-- [ ] SDLC vs STLC
+- [ .] What is Software Testing?
+- [ .] SDLC vs STLC
 - [ ] Test Plan & Test Strategy
-- [ ] Types of Testing (Functional, Non-functional, etc.)
-- [ ] Levels of Testing (Unit, Integration, System, Acceptance)
+- [ .] Types of Testing (Functional, Non-functional, etc.)
+- [ .] Levels of Testing (Unit, Integration, System, Acceptance)
 - [ ] Test Case Writing & Bug Reporting
 - [ ] Severity vs Priority
 - [ ] Agile Testing Basics
